@@ -1,0 +1,169 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Good morning",
+                "Good afternoon",
+                "Good evening",
+                "What's up",
+                "How are you",
+                "Is anyone there?",
+                "Hi there",
+                "Hola",
+                "Hey there"
+            ],
+            "responses": [
+                "Hello! Welcome to ShadowFox AI Assistant. How can I help you today?",
+                "Hi there! I'm the ShadowFox Chatbot. What would you like to know?",
+                "Hey! Great to see you. Feel free to ask me anything about ShadowFox!",
+                "Hello! I'm here to help you with any questions about ShadowFox internship.",
+                "Hi! How can I assist you today?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Goodbye",
+                "See you later",
+                "See you",
+                "Take care",
+                "I'm leaving",
+                "Have a good day",
+                "Quit",
+                "Exit",
+                "I have to go",
+                "Talk to you later"
+            ],
+            "responses": [
+                "Goodbye! Best of luck with your internship journey!",
+                "See you later! Feel free to come back anytime.",
+                "Bye! Have a great day ahead!",
+                "Take care! Good luck with your AI/ML learning!",
+                "Goodbye! Keep learning and growing!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thanks a lot",
+                "Thank you so much",
+                "Thanks for the help",
+                "I appreciate it",
+                "You're helpful",
+                "That was helpful",
+                "Much appreciated"
+            ],
+            "responses": [
+                "You're welcome! Happy to help!",
+                "Glad I could assist! Let me know if you have more questions.",
+                "My pleasure! Feel free to ask anything else.",
+                "You're welcome! That's what I'm here for!",
+                "Anytime! Don't hesitate to reach out again."
+            ]
+        },
+        {
+            "tag": "about_shadowfox",
+            "patterns": [
+                "What is ShadowFox?",
+                "Tell me about ShadowFox",
+                "What does ShadowFox do?",
+                "Who is ShadowFox?",
+                "Explain ShadowFox",
+                "What is ShadowFox about?",
+                "Can you describe ShadowFox?",
+                "Information about ShadowFox",
+                "What kind of company is ShadowFox?"
+            ],
+            "responses": [
+                "ShadowFox is an innovative tech education platform that provides hands-on internship experiences in cutting-edge fields like AI/ML, Data Science, and Software Development. We focus on practical, project-based learning!",
+                "ShadowFox is a technology-focused organization offering structured internship programs in AI, Machine Learning, and related fields. Our goal is to bridge the gap between academic knowledge and industry skills.",
+                "ShadowFox provides immersive learning experiences through real-world projects. We specialize in AI/ML internships that help students build practical skills and a strong portfolio."
+            ]
+        },
+        {
+            "tag": "internship_query",
+            "patterns": [
+                "How long is the internship?",
+                "What is the duration of internship?",
+                "Internship duration",
+                "How many weeks is the program?",
+                "When does the internship end?",
+                "Tell me about the internship structure",
+                "What's the internship timeline?",
+                "How is the internship structured?",
+                "Internship length",
+                "Program duration"
+            ],
+            "responses": [
+                "The ShadowFox AIML Internship is a 4-week intensive program. Week 1 covers Image Tagging (Beginner), Week 2 is Loan/Car Price Prediction (Intermediate), and Weeks 3-4 involve Advanced projects like AI Chatbots and LLM Deployment!",
+                "Our internship runs for 4 weeks with progressive difficulty levels. You'll work on 3-4 major projects ranging from beginner CNN models to advanced LLM deployments.",
+                "The program is structured as a 4-week journey: starting with foundational projects in Week 1, intermediate challenges in Week 2, and culminating with advanced AI implementations in Weeks 3-4."
+            ]
+        },
+        {
+            "tag": "skills",
+            "patterns": [
+                "What skills will I learn?",
+                "What will I learn?",
+                "Skills gained from internship",
+                "What technologies are covered?",
+                "What will be taught?",
+                "Learning outcomes",
+                "What programming skills?",
+                "Tell me about the curriculum",
+                "What topics are included?",
+                "What tools will I use?"
+            ],
+            "responses": [
+                "You'll learn TensorFlow, Keras for deep learning, Scikit-learn for traditional ML, NLTK for NLP, and Hugging Face for LLM deployment. Plus Python best practices, data preprocessing, and model evaluation techniques!",
+                "The internship covers: CNNs for image classification, Random Forest for regression, Neural Networks for chatbots, and Transformer models for NLP. You'll also master data augmentation, hyperparameter tuning, and model deployment.",
+                "Key skills include: Deep Learning (TensorFlow/Keras), Machine Learning (Scikit-learn), Natural Language Processing (NLTK), LLM Integration (Hugging Face), and professional development practices like Git and documentation."
+            ]
+        },
+        {
+            "tag": "projects",
+            "patterns": [
+                "What projects will I build?",
+                "Tell me about the projects",
+                "What will I create?",
+                "Project list",
+                "What are the assignments?",
+                "Describe the projects",
+                "What kind of projects?",
+                "Portfolio projects"
+            ],
+            "responses": [
+                "You'll build 4 amazing projects: 1) Image Classification CNN for CIFAR-10, 2) Car Price Prediction using Random Forest, 3) This AI Chatbot you're talking to, and 4) An LLM deployment project using Hugging Face!",
+                "The projects include: an Image Tagging system with TensorFlow, a Price Prediction model with hyperparameter tuning, a Context-Aware Chatbot with Tkinter GUI, and a Language Model deployment with advanced NLP capabilities.",
+                "Your portfolio will showcase: Computer Vision (CNN), Regression Analysis (Random Forest), Conversational AI (this chatbot!), and Generative AI (LLM deployment). All industry-relevant skills!"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Help",
+                "Help me",
+                "I need help",
+                "Can you help?",
+                "What can you do?",
+                "What are your capabilities?",
+                "How can you help me?",
+                "What should I ask?",
+                "Guide me"
+            ],
+            "responses": [
+                "I can help you with information about: ShadowFox organization, internship duration and structure, skills you'll learn, projects you'll build, and general guidance. Just ask away!",
+                "Feel free to ask me about: What is ShadowFox, internship details, learning outcomes, project descriptions, or any other questions about the AIML program!",
+                "I'm here to answer questions about the ShadowFox internship! Try asking about the duration, skills, projects, or what ShadowFox is all about."
+            ]
+        }
+    ]
+}
